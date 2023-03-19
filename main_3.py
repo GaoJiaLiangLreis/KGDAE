@@ -46,7 +46,7 @@ args.n_hop = 3
 args.n_memory = 16
 args.dim = 64   # 如设为64，则GPU内存溢出
 args.kge_weight = 0.001
-args.lr = 1e-7
+args.lr = 1e-5
 args.l2_weight = 1e-11
 
 print("\n超参设置:\n{}\n".format(args))
